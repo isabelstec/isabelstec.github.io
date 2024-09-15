@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5em; 
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   line-height: 1;
-  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
@@ -51,7 +51,7 @@ h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
  * Paragraphs
  */
 p {
-  margin: 0 auto 1.5em auto; /* bottom margin for paragraphs */
+  margin: 0 auto 1.5em auto; 
 }
 p + p {
 
@@ -85,7 +85,6 @@ blockquote p:last-child {
  * Layout styles
  */
 
-/* Full size background image */
 html, #container, .inner { background-color:transparent;}
 html {
   background:url(background.jpg) center center no-repeat fixed;
@@ -121,7 +120,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  border-bottom-color:#000080;
 }
 
 /* Utility classes */
