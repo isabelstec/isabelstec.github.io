@@ -130,3 +130,61 @@ ul.main-menu li a.active {
 .show {
   display:block;
 }
+
+/* Media Queries */
+
+/* Default styles for mobile devices (up to 767px) */
+body {
+  padding: 15px;
+}
+
+/* Tablet devices (768px and up) */
+@media (min-width: 768px) {
+  body {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+  
+  header, #content, footer {
+    padding: 30px;
+  }
+  
+  ul.main-menu {
+    justify-content: center; /* Center the menu */
+  }
+  
+  ul.main-menu li a {
+    font-size: 1.8rem;
+    margin-right: 15px;
+  }
+}
+
+/* Desktop devices (1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    max-width: 80%;
+    margin: 25px auto;
+  }
+  
+  header, #content, footer {
+    padding: 40px;
+  }
+  
+  ul.main-menu {
+    justify-content: flex-start; /* Align left */
+  }
+  
+  ul.main-menu li a {
+    font-size: 2.0rem;
+    margin-right: 20px;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner {
+    max-width: 1200px;
+  }
+}
